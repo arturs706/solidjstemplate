@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "KRYLON";
+  src: url("../assets/fonts/Krylon-Regular.woff2");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --background-dark-blue: #010409;
+  --background-dark-light-blue: #030b18;
+  --font-color: #ED9108; 
+} 
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--background-dark-blue)), to(var(--background-dark-light-blue))) fixed;
+  color: var(--font-color);
+  font-family: "KRYLON";
+  font-size: 12px;
 }
