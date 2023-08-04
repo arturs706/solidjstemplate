@@ -4,7 +4,9 @@ import styles from "../css/Nav.module.css"
 const Nav: Component = () => {
     {
   return (
-    <main></main>
+    <nav>
+
+    </nav>
   )
 }
 }
