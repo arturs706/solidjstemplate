@@ -1,4 +1,5 @@
 import { Component } from "solid-js";
+import styles from "../css/Navpage.module.css"
 
 const Navpage: Component = () => {
     {
